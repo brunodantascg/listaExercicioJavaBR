@@ -17,7 +17,7 @@ public class LojaTintas_16 {
 
         Scanner entrada = new Scanner(System.in); // Entrada do número com o usuário
         System.out.println("Digite a quantidade de metros quadrados a serem pintados ");
-        litros = entrada.nextDouble();
+        metros = entrada.nextDouble();
 
         double precoLitro = 80.0;
         double capacidadeLitro = 18;

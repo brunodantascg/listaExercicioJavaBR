@@ -17,13 +17,13 @@ import java.util.Scanner;
 public class LojaTintaCompleta_17 {
     public static void main(String[] args){
 
-        double litros, latas, total, precoLitro = 80.0, capacidadeLitro = 18, metros;// Variáveis utilizadas na questão
+        double litros, metros, latas, total, precoLitro = 80.0, capacidadeLitro = 18;// Variáveis utilizadas na questão
 
         Scanner entrada = new Scanner(System.in); // Entrada do número com o usuário
         System.out.println("Digite a quantidade de metros quadrados a serem pintados ");
-        litros = entrada.nextDouble();
+        metros = entrada.nextDouble();
 
-        litros = metros/3;
+        litros = metros / 3;
         latas = litros / capacidadeLitro;
 
         total = latas * precoLitro;
