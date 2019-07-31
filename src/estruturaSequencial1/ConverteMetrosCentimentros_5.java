@@ -1,3 +1,5 @@
+package estruturaSequencial1;
+
 /***
  * Questão 5
  *
@@ -7,7 +9,7 @@
 
 import java.util.Scanner;
 
-public class converteMetrosCentimentros_5 {
+public class ConverteMetrosCentimentros_5 {
     public static void main(String[] args){
 
         int metros;
