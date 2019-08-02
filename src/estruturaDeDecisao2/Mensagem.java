@@ -55,8 +55,9 @@ public class Mensagem {
                 Decrescente_9 decrescente = new Decrescente_9();
                 decrescente.exibirDecrescente();
                 break;
-                //case 10:
-
+            case 10:
+                TurnoEstudo_10 turno = new TurnoEstudo_10();
+                turno.exibirTurnoEstudo();
             default:
                 System.out.println("Informe valor correto! Questão de 1 até 26.");
         }
