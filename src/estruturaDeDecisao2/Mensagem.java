@@ -31,20 +31,29 @@ public class Mensagem {
                 VerificarLetra_3 letra = new VerificarLetra_3();
                 letra.exibirVerificarLetra();
                 break;
-
-            //case 4:
-                // case 5:
-                //case 6:
-                //case 7:
-                //case 8:
-                //case 9:
-                //case 10:
+            case 4:
+                VogalConsoante_4 vogal = new VogalConsoante_4();
+                vogal.exibirVogalConsoante();
+                break;
+            case 5:
+                Media_5 media = new Media_5();
+                media.exibirMedia();
+                break;
+            case 6:
+                MaiorTresNumeros_6 tres = new MaiorTresNumeros_6();
+                tres.exibirMaiorTresNumeros();
+                break;
+            case 7:
+                MaiorMenorTresNumeros_7 maiorMenor = new MaiorMenorTresNumeros_7();
+                maiorMenor.exibirMaiorMenorTresNumeros();
+                break;
+            //case 8:
+            //case 9:
+            //case 10:
 
             default:
                 System.out.println("Informe valor correto! Questão de 1 até 26.");
         }
-
-
 
     }
 }

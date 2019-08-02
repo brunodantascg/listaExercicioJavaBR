@@ -17,7 +17,7 @@ public class VerificarLetra_3 {
         System.out.println("3 - Faça um Programa que verifique se uma letra digitada é \"F\" ou \"M\". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.");
 
         Scanner entrada = new Scanner(System.in); // Entrada do raio_6 pelo usuário
-        System.out.println("Informe letra: "); // Pedido nome
+        System.out.println("Informe letra: "); // Pedido letra
         sexo = entrada.next();
 
         if((sexo == "F") || (sexo == "M")){
