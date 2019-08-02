@@ -26,6 +26,7 @@ public class Decrescente_9 {
 
         System.out.println();
 
+
     }
 
 }
