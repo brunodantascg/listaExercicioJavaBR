@@ -60,6 +60,8 @@ public class Mensagem {
                 turno.exibirTurnoEstudo();
             default:
                 System.out.println("Informe valor correto! Questão de 1 até 26.");
+
+
         }
 
     }

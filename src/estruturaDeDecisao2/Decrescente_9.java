@@ -14,7 +14,6 @@ public class Decrescente_9 {
 
         double num1, num2, num3;
 
-
         System.out.println("9 - Faça um Programa que leia três números e mostre-os em ordem decrescente.");
 
         Scanner entrada = new Scanner(System.in); // Entrada do raio_6 pelo usuário
