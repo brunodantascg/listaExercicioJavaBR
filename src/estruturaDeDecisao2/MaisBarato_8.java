@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
  */
 
-public class MaisBarato {
+public class MaisBarato_8 {
     public void exibirMaiorTresNumeros(){
 
         double preco1, preco2, preco3;

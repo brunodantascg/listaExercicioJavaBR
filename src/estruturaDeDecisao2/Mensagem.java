@@ -47,9 +47,15 @@ public class Mensagem {
                 MaiorMenorTresNumeros_7 maiorMenor = new MaiorMenorTresNumeros_7();
                 maiorMenor.exibirMaiorMenorTresNumeros();
                 break;
-            //case 8:
-            //case 9:
-            //case 10:
+            case 8:
+                MaisBarato_8 menor = new MaisBarato_8();
+                menor.exibirMaiorTresNumeros();
+                break;
+            case 9:
+                Decrescente_9 decrescente = new Decrescente_9();
+                decrescente.exibirDecrescente();
+                break;
+                //case 10:
 
             default:
                 System.out.println("Informe valor correto! Questão de 1 até 26.");
