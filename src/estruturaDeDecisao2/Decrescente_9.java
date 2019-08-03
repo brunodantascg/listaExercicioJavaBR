@@ -1,6 +1,8 @@
 package estruturaDeDecisao2;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 /***
@@ -24,8 +26,17 @@ public class Decrescente_9 {
         System.out.println("Informe primeira número: "); // Informar terceiro número
         num3 = entrada.nextDouble();
 
-        System.out.println();
+        List numeros = new ArrayList<>();
 
+        System.out.println("Ordem em que os números foram adc: " + numeros);
+
+        numeros.add(num1);
+        numeros.add(num2);
+        numeros.add(num3);
+        Collections.sort(numeros);
+        Collections.reverse(numeros);
+
+        System.out.println("Ordem decrescente" + numeros);
 
     }
 
