@@ -58,7 +58,9 @@ public class Mensagem {
             case 10:
                 TurnoEstudo_10 turno = new TurnoEstudo_10();
                 turno.exibirTurnoEstudo();
-                
+            case 11:
+                OrganizacoesTabajara_11 tabajara = new OrganizacoesTabajara_11();
+                tabajara.exibirTabajara();
         }
 
     }
