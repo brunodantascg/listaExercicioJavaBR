@@ -28,9 +28,15 @@ public class OrganizacoesTabajara_11 {
         System.out.println("Informe seu Salário R$: "); // Informar salário pelo usuário
         salario = entrada.nextDouble();
 
-        class salarioCalculo{
-
+        if(salario < 280){
+            salario += salario*0.20;
+        }else if((salario >= 280) && (salario < 700)){
+            salario += salario*0.15;
+        }else if((salario >= 700) && (salario < 1500)){
+            salario += salario*0.10;
+        }else{
+            salario += salario*0.05;
         }
-
+        System.out.println("Imposto R$: " + salario);
     }
 }

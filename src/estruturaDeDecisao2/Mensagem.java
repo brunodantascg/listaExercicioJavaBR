@@ -58,9 +58,19 @@ public class Mensagem {
             case 10:
                 TurnoEstudo_10 turno = new TurnoEstudo_10();
                 turno.exibirTurnoEstudo();
+                break;
             case 11:
                 OrganizacoesTabajara_11 tabajara = new OrganizacoesTabajara_11();
                 tabajara.exibirTabajara();
+                break;
+            case 12:
+                FolhaPagamento_12 folha = new FolhaPagamento_12();
+                folha.exibirFolha();
+                break;
+            case 13:
+                DiasDaSemana_13 dia = new DiasDaSemana_13();
+                dia.exibirDia();
+                break;
         }
 
     }
