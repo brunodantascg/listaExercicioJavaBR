@@ -71,6 +71,10 @@ public class Mensagem {
                 DiasDaSemana_13 dia = new DiasDaSemana_13();
                 dia.exibirDia();
                 break;
+            case 14:
+                Triangulo_15 triangulo = new Triangulo_15();
+                triangulo.exibirTriangulo();
+                break;
         }
 
     }
