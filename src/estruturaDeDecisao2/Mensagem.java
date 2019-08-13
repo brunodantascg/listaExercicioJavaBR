@@ -72,10 +72,30 @@ public class Mensagem {
                 dia.exibirDia();
                 break;
             case 14:
+                NotasComConceito_14 notas = new NotasComConceito_14();
+                notas.exibirNotas();
+                break;
+            case 15:
                 Triangulo_15 triangulo = new Triangulo_15();
                 triangulo.exibirTriangulo();
                 break;
-        }
+            case 16:
+                RaizesQuadradas_16 raizes = new RaizesQuadradas_16();
+                raizes.exibirRaizes();
+                break;
+            case 17:
+                AnoBissexto_17 ano = new AnoBissexto_17();
+                ano.exibirAnoBissexto();
+                break;
+            case 18:
+                DataValida_18 data = new DataValida_18();
+                data.exibirDataValida();
+                break;
+            case 19:
+                Numero_19 numero = new Numero_19();
+                numero.exibirNumero();
+                break;
 
+        }
     }
 }
