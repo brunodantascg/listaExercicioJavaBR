@@ -95,7 +95,10 @@ public class Mensagem {
                 Numero_19 numero = new Numero_19();
                 numero.exibirNumero();
                 break;
-
+            case 20:
+                TresNotas_20 tresNotas = new TresNotas_20();
+                tresNotas.exibirTresNotas();
+                break;
         }
     }
 }
